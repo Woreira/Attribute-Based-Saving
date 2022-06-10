@@ -12,6 +12,7 @@
 >> it will not throw a error, but may do unexpected stuff.  
 
 ### Example:  
+```csharp
     //Example.cs
     [Track]
     public class Example : MonoBehaviour{
@@ -19,3 +20,4 @@
         [Save]public float y;
         [Save]public bool z;
     }
+```
