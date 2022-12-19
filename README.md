@@ -8,8 +8,7 @@
 > be aware:  
 > - unity classes are not serializable, so [Save] will not work on them.  
 > - you may need to use SetupSettersAndGetters() manually to properly save recently instantiated objects:  
->> This system works by setting up getter and setter functions, if you add/remove objects that are being tracked  
->> it will not throw a error, but may do unexpected stuff.  
+>> This system works by setting up getter and setter functions, if you add/remove objects that are being tracked it will not throw a error, but may do unexpected stuff.  
 
 ### Example:  
 ```csharp
